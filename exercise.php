@@ -1,6 +1,11 @@
 <?
 
 // не получается чтобы в зависимости от массива имен функция выводила имена с нужным окончанием строки
+/*Условие: при поступлении в функцию пустого массива должен вывести "mast be "no one likes this"
+если из одного имени - "mast be "Peter likes this"
+если из двух - "mast be "Peter and Alex likes this"
+из трех - "mast be "Peter, Alex and Mark likes this"
+из четырех и более - "mast be "Peter, Alex and 2 others likes this" (где 2 оставшееся количество имен в массиве)*/
 
 $arr = ["Jacob", "Alex"];
 /*likes ["Peter"]
